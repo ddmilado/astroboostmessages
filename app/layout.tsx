@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "SHILOH 2024",
-  description: "Ever winning wisdom!",
+  title: "Jean-Claude",
+  description: "Customer Messages",
 };
 
 export default function RootLayout({
