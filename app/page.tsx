@@ -17,7 +17,7 @@ interface Message {
 
 const client = new Client()
   .setEndpoint('https://cloud.appwrite.io/v1')
-  .setProject('67b353fb001e6802cb02');
+  .setProject('67b392480023542949e8');
 const databases = new Databases(client);
 
 export default function Home() {
@@ -31,8 +31,8 @@ export default function Home() {
   const fetchMessages = async () => {
     try {
       const response = await databases.listDocuments<Message>(
-        '67b35525003baa0485f6',
-        '67b35571002f395f3f36',
+        '67b393d8002a92f6f76e',
+        '67b393f000313b2b5964',
       );
       setMessages(response.documents);
     } catch (error) {
